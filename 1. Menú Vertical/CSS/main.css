@@ -1,0 +1,68 @@
+/*
+#f9a91a --laboratoria
+#f5f5f0 -- fondo
+#e0e0d1 -- hover
+#333 -- active*/
+
+h1{
+	color: gray;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	/*outline: 1px solid red;*/
+	width: 200px;
+}
+
+ul{
+	/*outline: 1px solid yellow;*/
+	list-style: none; /*quita las viñetas de la lista*/
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	line-height: 26px;
+}
+
+li{
+	/*outline: 1px solid red;*/
+	background-color: ##f5f5f0;
+}
+
+/* Estados de los enlaces: link Visited Hover Active*/
+
+a{
+	display: block;
+	text-decoration: none;
+	padding-left: 10px;
+	color: #000
+}
+
+a:hover {
+	background-color: #e0e0d1;
+}
+
+a:active{
+	background-color: #333;
+	color: #fff;
+}
+
+ul li:first-child{
+	background-color: #f9a91a;
+}
+
+ul li:first-child a{
+	color: #fff;
+}
+
+ul li:first-child a:hover{
+	color: #000;
+}
+
+ul li:first-child a:active{
+	color: #fff;
+}
+
+

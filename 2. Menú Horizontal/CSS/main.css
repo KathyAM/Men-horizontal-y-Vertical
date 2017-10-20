@@ -1,0 +1,50 @@
+h2{
+	text-align: center;
+	color: gray;
+	padding-left: 20px;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	/*outline: 1px solid red;*/
+}
+
+ul{
+	/*outline: 1px solid yellow;*/
+	list-style: none; /*quita las viñetas de la lista*/
+	margin: 0;
+	padding: 0;
+	background-color:#2e2e2a;
+	line-height: 40px;
+	overflow: auto;
+	text-align: center
+}
+
+li{
+	/*outline: 1px solid red;*/
+	width: 100px;
+	background-color: #333;
+	display: inline-block;
+	float: center;
+}
+
+/* Estados de los enlaces: link Visited Hover Active*/
+
+a{
+	text-decoration: none;
+	display: block;
+	color: #fff
+}
+
+a:hover {
+	background-color: #f9a91a;
+	color: #000;
+}
+
+a:active{
+	background-color: #333;
+	color: #fff;
+}
